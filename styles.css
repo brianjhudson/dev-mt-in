@@ -1,0 +1,38 @@
+@import 'https://fonts.googleapis.com/css?family=Lora|Open+Sans:400,600,700';
+* {
+  box-sizing: border-box;
+  margin-0;
+  font-family: 'Lora', serif;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+h2, h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.upper-navigation, .bottom-navigation {
+  margin: 20px 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+  height: 15px;
+}
+.upper-navigation a, .bottom-navigation a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+.upper-navigation {
+    border-bottom: 1px solid #eaeaea;
+}
+.bottom-navigation {
+    border-top: 1px solid #eaeaea;
+}
+.bottom-navigation a {
+  color: #ccc;
+}
