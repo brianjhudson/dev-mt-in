@@ -4,3 +4,20 @@
   <a class="brand" ui-sref="landing">DevMountain</a>
   <a class="menu-bars"><img src="images/icons/ham.svg" alt="Menu"></a>
 </nav>
+<div class="column-wrapper">
+  <div class="left">
+    <h4>Welcome to DevMountain Social</h4>
+    <h4>Add Some Info So Friends Can Find You</h4>
+    <form class="form-group" action="index.html" method="post">
+      <input type="text" class="form-control" placeholder="Full Name" ng-model="info.name">
+      <input type="text" class="form-control" placeholder="Tagline" ng-model="info.tagline">
+      <input type="website" class="form-control" placeholder="Profile Image Url" ng-model="info.profileImage">
+      <textarea id="bio" cols="30" rows="4" class="form-control" ng-model="info.bio" placeholder="Bio"></textarea>
+    </form>
+    <button id="save-changes"type="button" role="button">Save Changes</button>
+  </div>
+  <div class="right">
+    <img class="triangle-gray" src="https://hd.unsplash.com/photo-1461280360983-bd93eaa5051b">
+    <img class="triangle-green" src="">
+  </div>
+</div>
